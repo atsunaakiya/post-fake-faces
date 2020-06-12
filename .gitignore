@@ -2,3 +2,4 @@ venv
 config.toml
 .idea
 .vscode
+*.log

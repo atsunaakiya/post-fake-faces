@@ -69,6 +69,7 @@ def main():
     config_path = Path(__file__).parent / 'config.toml'
     with open(config_path) as f:
         config = parse_config(f)
+    randomly_sleep(config.crawler)
     bio = get_image(config.crawler)
     post_image(config.telegram, bio)
 

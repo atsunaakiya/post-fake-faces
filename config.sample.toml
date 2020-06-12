@@ -1,0 +1,9 @@
+[telegram]
+channel = ''
+token = ''
+
+[crawler]
+min_delay = 7
+max_delay = 13
+source = 'https://thispersondoesnotexist.com/image'
+origin = 'https://thispersondoesnotexist.com/'
